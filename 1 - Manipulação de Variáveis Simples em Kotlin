@@ -1,0 +1,22 @@
+fun main(args: Array<String>) {
+  
+    var nome: String = "Leandro"
+    var idade: Int = 18
+    var idade2: Int = 36
+    var altura: Double = 1.85
+    var eEstudante: Boolean = true
+    
+    //Soma resultados
+    var somaId: Int = idade + idade2
+    var xAltura: Double = altura * 2
+    
+    //Exibir valores
+    
+    println("Nome: $nome") 
+    println("Idade $idade")
+    println("Altura $altura")
+    println("E Estudante $eEstudante")
+    println("Soma das idades: $somaId")
+    println("Dobro do tamanho $xAltura")
+
+}
