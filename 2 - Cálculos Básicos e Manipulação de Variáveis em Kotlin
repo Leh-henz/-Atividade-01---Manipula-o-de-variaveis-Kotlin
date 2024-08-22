@@ -1,0 +1,22 @@
+fun main(args: Array<String>) {
+  
+    var nome: String = "Leandro"
+    var idade: Int = 18
+    var salario: Double = 2.500
+    var trabAno: Int = 11
+    var vendaProdutos: Int = 2500
+    
+    //Soma resultados
+    var salarioBruto: Int = salario * trabAno + salario
+    var salarioLiq: Double = salarioBruto * 0.95
+    
+    //Exibir valores
+    
+    println("Nome: $nome") 
+    println("Idade $idade")
+    println("Salario mensal: $salario")
+    println("Trabalha $trabAno meses por Ano")
+    println("Vendeu $vendaProdutos no ano passado")
+    println("$nome, voce recebe um total de $salarioLiq liquido por ano!"")
+
+}
