@@ -1,0 +1,21 @@
+fun main(args: Array<String>) {
+  
+    var nomeProduto: String = "Mouse"
+    var preco: Double = 99.90
+    var imposto: Double = 0.91
+    var lucroPrevisto: Int = 50
+    var vendaProdutos: Int = 250
+    
+    //Soma resultados
+    var vendasBruto: Double = preco * vendaProdutos 
+    var vendasLiq: Double = vendasBruto * imposto
+    
+    //Exibir valores
+    
+    println("Produto: $nomeProduto") 
+    println("Preco Produto: $preco")
+    println("Produtos Vendidos: $vendaProdutos")
+    println("Renda bruta nas vendas: $vendasBruto")
+    println("Sobrou $vendasLiq ")
+
+}
